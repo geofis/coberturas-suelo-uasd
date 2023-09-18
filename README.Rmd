@@ -1,0 +1,37 @@
+---
+title: Coberturas del suelo del polígono núcleo del campus de la Universidad Autónoma de Santo Domingo (UASD) en su sede central
+authors:
+  - name: José-Ramón Martínez-Batlle\orcidlink{0000-0001-9924-0327}
+    department: Facultad de Ciencias
+    affiliation: Universidad Autónoma de Santo Domingo (UASD)
+    location:  Santo Domingo, República Dominicana
+    email: jmartinez19@uasd.edu.do
+bibliography: references.bib
+csl: apa-es.csl
+lang: es
+output: github_document
+editor_options: 
+  chunk_output_type: console
+header-includes:
+  \usepackage{orcidlink}
+---
+
+<!-- README.md se genera a partir de README.Rmd. Por favor, edita ese archivo. -->
+
+*Por José Ramón Martínez Batlle*
+
+## Descripción
+
+Este repositorio contiene fuentes de datos para prácticas de las asignaturas que imparto en la Universidad Autónoma de Santo Domingo.
+
+## Contenido
+
+Relaciono las fuentes de datos disponibles a continuación:
+
+- [Índice espacial de hexágonos H3](fuentes/h3-res-11.gpkg). Capa vectorial conteniendo la porción intersectada del índice espacial de hexágonos H3, resolución 11 [@uber2023h3]. Este índice consiste en un sistema geoespacial de código abierto que utiliza celdas hexagonales para indexar el mundo, ofreciendo funciones para manipular y analizar dichas celdas.
+
+- [Coberturas del suelo](fuentes/tipos-cob-2-epsg-32619-cleaned-3.shp). Capa vectorial de coberturas del suelo, conformada por polígonos que representan las siguientes cuatro coberturas: dosel, suelo con herbáceas o sin ellas, edificios erguida y construcciones (mobiliario, edificios, acertado, etc.). Los polígonos fueron digitalizados manualmente usando QGIS [@QGIS_software] sobre una imagen satelital óptica de 2016, cuya resolución es de 60 cm/px, accedida a través de cuadros WMS de Google Maps [@googlemaps].
+
+- [Polígono de perímetro](fuentes/poligono-uasd.gpkg). Capa vectorial conteniendo el polígono núcleo del campus de la Universidad Autónoma de Santo Domingo (UASD) en su sede central.
+
+## Referencias
