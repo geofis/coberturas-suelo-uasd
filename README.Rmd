@@ -34,4 +34,7 @@ Relaciono las fuentes de datos disponibles a continuación:
 
 - [Polígono de perímetro](fuentes/poligono-uasd.gpkg). Capa vectorial conteniendo el polígono núcleo del campus de la Universidad Autónoma de Santo Domingo (UASD) en su sede central.
 
+![](salidas/salida.jpg)
+**Figura 1**. Mapa síntesis del polígono núcleo del campus de la Universidad Autónoma de Santo Domingo (UASD) en su sede central. Superpuestos, y mezclados con imagen satélital de alta resolución (Google; Airbus, CNES; Airbus, Landsat; Copernicus; Maxar Technologies; U.S. Geological Survey, 2023), se incluye también una capa de coberturas del suelo y el arreglo de hexágonos H3 de resolución 11 intersectados en el campus.
+
 ## Referencias
