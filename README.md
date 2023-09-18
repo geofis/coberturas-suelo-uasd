@@ -8,6 +8,10 @@ Autónoma de Santo Domingo (UASD) en su sede central
 
 *Por José Ramón Martínez Batlle*
 
+[![DOI](https://zenodo.org/badge/692893783.svg)](https://zenodo.org/badge/latestdoi/692893783)
+
+Entrada BibTeX, [aquí](#entrada-bibtex)
+
 ## Descripción
 
 Este repositorio contiene fuentes de datos para prácticas de las
@@ -46,6 +50,22 @@ resolución (Google; Airbus, CNES; Airbus, Landsat; Copernicus; Maxar
 Technologies; U.S. Geological Survey, 2023), se incluye también una capa
 de coberturas del suelo y el arreglo de hexágonos H3 de resolución 11
 intersectados en el campus.
+
+## Entrada BibTex
+
+    @software{jose_ramon_martinez_batlle_2023_8353988,
+      author       = {José Ramón Martínez Batlle},
+      title        = {{geofis/coberturas-suelo-uasd: Coberturas del suelo 
+                       del polígono núcleo del campus de la Universidad
+                       Autónoma de Santo Domingo (UASD) en su sede
+                       central}},
+      month        = sep,
+      year         = 2023,
+      publisher    = {Zenodo},
+      version      = {v0.9},
+      doi          = {10.5281/zenodo.8353988},
+      url          = {https://doi.org/10.5281/zenodo.8353988}
+    }
 
 ## Referencias
 
