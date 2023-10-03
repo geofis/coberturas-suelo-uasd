@@ -21,27 +21,35 @@ asignaturas que imparto en la Universidad Autónoma de Santo Domingo.
 
 Relaciono las fuentes de datos disponibles a continuación:
 
--   [Índice espacial de hexágonos H3](fuentes/h3-res-11.gpkg). Capa
-    vectorial conteniendo la porción intersectada del índice espacial de
-    hexágonos H3, resolución 11 (Uber Technologies, 2023). Este índice
-    consiste en un sistema geoespacial de código abierto que utiliza
-    celdas hexagonales para indexar el mundo, ofreciendo funciones para
-    manipular y analizar dichas celdas.
+- Índice espacial de hexágonos H3 de [resolución
+  11](fuentes/h3-res-11.gpkg) y de [resolución
+  12](fuentes/h3-res-12-no-edificios.gpkg). Capas vectoriales
+  conteniendo la porción intersectada del índice espacial de hexágonos
+  H3, resoluciones 11 y 12 (Uber Technologies, 2023). Este índice
+  consiste en un sistema geoespacial de código abierto que utiliza
+  celdas hexagonales para indexar el mundo, ofreciendo funciones para
+  manipular y analizar dichas celdas.
 
--   [Coberturas del
-    suelo](fuentes/tipos-cob-2-epsg-32619-cleaned-3.shp). Capa vectorial
-    de coberturas del suelo, conformada por polígonos que representan
-    las siguientes cuatro coberturas: dosel, suelo con herbáceas o sin
-    ellas, edificios erguida y construcciones (mobiliario, edificios,
-    acertado, etc.). Los polígonos fueron digitalizados manualmente
-    usando QGIS (QGIS Development Team, 2016) sobre una imagen satelital
-    óptica de 2016, cuya resolución es de 60 cm/px, accedida a través de
-    cuadros WMS de Google Maps (Google; Airbus, CNES; Airbus, Landsat;
-    Copernicus; Maxar Technologies; U.S. Geological Survey, 2016).
+- [Coberturas del suelo](fuentes/tipos-cob-2-epsg-32619-cleaned-3.shp).
+  Capa vectorial de coberturas del suelo, conformada por polígonos que
+  representan las siguientes cuatro coberturas: dosel, suelo con
+  herbáceas o sin ellas, edificios erguida y construcciones (mobiliario,
+  edificios, acertado, etc.). Los polígonos fueron digitalizados
+  manualmente usando QGIS (QGIS Development Team, 2016) sobre una imagen
+  satelital óptica de 2016, cuya resolución es de 60 cm/px, accedida a
+  través de cuadros WMS de Google Maps (Google; Airbus, CNES; Airbus,
+  Landsat; Copernicus; Maxar Technologies; U.S. Geological Survey,
+  2016).
 
--   [Polígono de perímetro](fuentes/poligono-uasd.gpkg). Capa vectorial
-    conteniendo el polígono núcleo del campus de la Universidad Autónoma
-    de Santo Domingo (UASD) en su sede central.
+- [Polígono de perímetro](fuentes/poligono-uasd.gpkg). Capa vectorial
+  conteniendo el polígono núcleo del campus de la Universidad Autónoma
+  de Santo Domingo (UASD) en su sede central.
+
+- [Hexágonos clasificados según
+  cobertura](fuentes/h3-res-12-no-edificios-clasificado.gpkg). Este
+  archivo contiene los hexágonos clasificados según su cobertura
+  predominante. Fue realizado usando el *script*
+  [clasificacion-de-hexagonos.gpkg](clasificacion-de-hexagonos.Rmd)
 
 ![](salidas/salida.jpg) **Figura 1**. Mapa síntesis del polígono núcleo
 del campus de la Universidad Autónoma de Santo Domingo (UASD) en su sede
