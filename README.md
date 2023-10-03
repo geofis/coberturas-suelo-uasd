@@ -49,7 +49,7 @@ Relaciono las fuentes de datos disponibles a continuación:
   cobertura](fuentes/h3-res-12-no-edificios-clasificado.gpkg). Este
   archivo contiene los hexágonos clasificados según su cobertura
   predominante. Fue realizado usando el *script*
-  [clasificacion-de-hexagonos.gpkg](clasificacion-de-hexagonos.Rmd)
+  [**clasificacion-de-hexagonos.md**](clasificacion-de-hexagonos.md)
 
 ![](salidas/salida.jpg) **Figura 1**. Mapa síntesis del polígono núcleo
 del campus de la Universidad Autónoma de Santo Domingo (UASD) en su sede
