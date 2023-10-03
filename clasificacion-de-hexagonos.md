@@ -9,7 +9,7 @@ coberturas del suelo
 
 *Por José Ramón Martínez Batlle*
 
-[![DOI](https://zenodo.org/badge/692893783.svg)](https://zenodo.org/badge/latestdoi/692893783)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8404063.svg)](https://doi.org/10.5281/zenodo.8404063)
 
 Entrada BibTeX, [aquí](#entrada-bibtex)
 
@@ -136,5 +136,21 @@ hexagonos_pct %>% st_write(dsn = 'salidas/h3-res-12-no-edificios-3-grupos.gpkg',
     ## Writing layer `h3-res-12-no-edificios-3-grupos' to data source 
     ##   `salidas/h3-res-12-no-edificios-3-grupos.gpkg' using driver `GPKG'
     ## Writing 1490 features with 7 fields and geometry type Polygon.
+
+## Entrada BibTex
+
+    @software{jose_ramon_martinez_batlle_2023_8404063,
+      author       = {José Ramón Martínez Batlle},
+      title        = {{geofis/coberturas-suelo-uasd: Coberturas del suelo 
+                       del polígono núcleo del campus de la Universidad
+                       Autónoma de Santo Domingo (UASD) en su sede
+                       central}},
+      month        = oct,
+      year         = 2023,
+      publisher    = {Zenodo},
+      version      = {v0.91},
+      doi          = {10.5281/zenodo.8404063},
+      url          = {https://doi.org/10.5281/zenodo.8404063}
+    }
 
 ## Referencias

@@ -20,7 +20,7 @@ header-includes:
 
 *Por José Ramón Martínez Batlle*
 
-[![DOI](https://zenodo.org/badge/692893783.svg)](https://zenodo.org/badge/latestdoi/692893783)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8404063.svg)](https://doi.org/10.5281/zenodo.8404063)
 
 Entrada BibTeX, [aquí](#entrada-bibtex)
 
@@ -47,18 +47,18 @@ Relaciono las fuentes de datos disponibles a continuación:
 ## Entrada BibTex
 
 ```
-@software{jose_ramon_martinez_batlle_2023_8353988,
+@software{jose_ramon_martinez_batlle_2023_8404063,
   author       = {José Ramón Martínez Batlle},
   title        = {{geofis/coberturas-suelo-uasd: Coberturas del suelo 
                    del polígono núcleo del campus de la Universidad
                    Autónoma de Santo Domingo (UASD) en su sede
                    central}},
-  month        = sep,
+  month        = oct,
   year         = 2023,
   publisher    = {Zenodo},
-  version      = {v0.9},
-  doi          = {10.5281/zenodo.8353988},
-  url          = {https://doi.org/10.5281/zenodo.8353988}
+  version      = {v0.91},
+  doi          = {10.5281/zenodo.8404063},
+  url          = {https://doi.org/10.5281/zenodo.8404063}
 }
 ```
 
