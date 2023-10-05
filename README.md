@@ -46,10 +46,14 @@ Relaciono las fuentes de datos disponibles a continuación:
   de Santo Domingo (UASD) en su sede central.
 
 - [Hexágonos clasificados según
-  cobertura](fuentes/h3-res-12-no-edificios-clasificado.gpkg). Este
-  archivo contiene los hexágonos clasificados según su cobertura
-  predominante. Fue realizado usando el *script*
+  cobertura](salidas/h3-res-12-no-edificios-3-grupos.gpkg). Este archivo
+  contiene los hexágonos clasificados según su cobertura predominante.
+  Fue realizado usando el *script*
   [**clasificacion-de-hexagonos.md**](clasificacion-de-hexagonos.md)
+
+- [Formularios de ODK](odk/biogeografia_hormigas_202302.xls). Si
+  necesitas crear formularios de ODK con hoja de cálculo, puedes usar
+  esta plantilla.
 
 ![](salidas/salida.jpg) **Figura 1**. Mapa síntesis del polígono núcleo
 del campus de la Universidad Autónoma de Santo Domingo (UASD) en su sede
