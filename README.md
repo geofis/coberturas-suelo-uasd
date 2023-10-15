@@ -55,6 +55,9 @@ Relaciono las fuentes de datos disponibles a continuación:
   necesitas crear formularios de ODK con hoja de cálculo, puedes usar
   esta plantilla.
 
+- [Vídeo “Diseño de muestreo aleatorio, estratificado por coberturas,
+  usando H3, polígono núcleo UASD-SD”](https://youtu.be/aeRSpwNETF4).
+
 ![](salidas/salida.jpg) **Figura 1**. Mapa síntesis del polígono núcleo
 del campus de la Universidad Autónoma de Santo Domingo (UASD) en su sede
 central. Superpuestos, y mezclados con imagen satélital de alta
